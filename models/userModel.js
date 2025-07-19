@@ -5,6 +5,7 @@ const mongoose = require("mongoose");
 
 // create the schema
 
+// added the schema name and email
 const userSchema = new mongoose.Schema({
     name: String,
     email: String

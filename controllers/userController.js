@@ -18,6 +18,7 @@ const getUserById = async(req, res) => {
     res.json(user)
 }
 
+// added the create user to post the data
  const createUser = async (req, res) => {
     try {
         const newUser = new User(req.body);
